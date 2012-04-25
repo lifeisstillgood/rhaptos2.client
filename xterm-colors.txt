@@ -23,3 +23,9 @@ Actually that might not be true
 but we defintelyt need to look after colors in emacs / terminal
 
 http://www.redhat.com/mirrors/LDP/HOWTO/Text-Terminal-HOWTO-15.html
+
+
+urxvt --help
+
+prints out all options viable in .Xresoueses
+
