@@ -1,0 +1,25 @@
+OK Xterm is just painful at times
+
+but...
+
+it runs off a terminfo database (used to be called termcap)
+We see where it is stored as ::
+
+ [11:21][pbrian@hadrian:~]$ env | grep -i term
+ TERM=rxvt
+ TERMINFO=/usr/local/share/misc/terminfo.db
+ COLORTERM=rxvt-xpm
+
+ [11:24][pbrian@hadrian:~]$ file $TERMINFO
+ /usr/local/share/misc/terminfo.db: Berkeley DB 1.85 (Hash, version 2, native byte-order)
+
+
+we create it by ::
+
+ sudo xrdb .Xresources 
+
+Actually that might not be true
+
+but we defintelyt need to look after colors in emacs / terminal
+
+http://www.redhat.com/mirrors/LDP/HOWTO/Text-Terminal-HOWTO-15.html
