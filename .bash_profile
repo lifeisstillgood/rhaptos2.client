@@ -16,4 +16,4 @@ PS1="\[\033[0;36m\][\$(date +%H:%M)][\u@\h:\W]$\[\033[0m\] ";export PS1
 alias emacs='emacs --no-window-system'
 alias ls='ls -aFG' 
 
-eval `keychain --eval id_rsa mikado passtest`
+eval `keychain -q --eval id_rsa mikado passtest`

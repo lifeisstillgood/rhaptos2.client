@@ -1,1 +1,1 @@
-eval `keychain --eval id_rsa mikado passtest`
+eval `keychain -q --eval id_rsa mikado passtest`
