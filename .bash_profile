@@ -6,14 +6,22 @@ dirs=".:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/local/texlive/2011/bin/am
 PATH=$PATH:$dirs;export PATH
 
 
-PYTHONPATH=/home/pbrian/com.mikadosoftware/experiements/uwsgi:/home/pbrian/:/home/pbrian/frozone; export PYTHONPATH
+export PYTHONPATH=/home/pbrian/com.mikadosoftware/clients/cnx:/home/pbrian
 
-CLICOLOR=1; export CLICOLOR
-LSCOLORS='gxfxcxdxbxegedabagacad'; export LSCOLORS
+########### Terminal
 
-PS1="\[\033[0;36m\][\$(date +%H:%M)][\u@\h:\W]$\[\033[0m\] ";export PS1
+export TERM=xterm-256color
 
+export CLICOLOR=1
+export LSCOLORS='gxfxcxdxbxegedabagacad'
+
+#bit more explanation please
+export PS1="\[\033[0;36m\][\u@\h:\W]$\[\033[0m\] "
+
+####### Aliases #########
 alias emacs='emacs --no-window-system'
 alias ls='ls -aFG' 
+alias ps='ps aux -dw'
+
 
 eval `keychain -q --eval id_rsa mikado passtest`
