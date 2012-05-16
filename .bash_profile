@@ -19,9 +19,9 @@ export LSCOLORS='gxfxcxdxbxegedabagacad'
 export PS1="\[\033[0;36m\][\u@\h:\W]$\[\033[0m\] "
 
 ####### Aliases #########
-alias emacs='emacs --no-window-system'
+alias emacs='emacsclient -t '
 alias ls='ls -aFG' 
 alias ps='ps aux -dw'
 
 
-eval `keychain -q --eval id_rsa mikado passtest`
+eval `keychain -q --eval id_rsa mikado 4E8EDF79`
