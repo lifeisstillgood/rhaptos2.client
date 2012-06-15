@@ -6,7 +6,7 @@ urxvt*scrollBar: true
 urxvt*scrollKey: true
 urxvt*saveLines: 1000
 urxvt*loginShell: true
-urxvt*font: -adobe-courier-medium-r-*-*-14-*-*-*-*-*-iso8859-1
+urxvt*font: -adobe-courier-medium-r-*-*-20-*-*-*-*-*-iso8859-1
 urxvt.perl-ext-common:default,tabbed
 //COLOURS
 urxvt*colorBD:			#307090
