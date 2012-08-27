@@ -1,0 +1,29 @@
+urxvt*background: black
+urxvt*foreground: green
+urxvt*pointerColor: green
+urxvt*pointerColorBackground: green
+urxvt*scrollBar: true
+urxvt*scrollKey: true
+urxvt*saveLines: 1000
+urxvt*loginShell: true
+urxvt*font: -adobe-courier-medium-r-*-*-20-*-*-*-*-*-iso8859-1
+urxvt.perl-ext-common:default,tabbed
+//COLOURS
+urxvt*colorBD:			#307090
+urxvt*color0:			grey50
+urxvt*color1:			#B00000
+urxvt*color2:			green4
+urxvt*color3:			yellow3
+urxvt*color4:			blue3
+urxvt*color5:			#A000A0
+urxvt*color6:			#009999
+urxvt*color7:			#D0B099
+urxvt*color8:			grey90
+urxvt*color9:			#FF3030
+urxvt*color10:			#70FF70
+urxvt*color11:			#F0F080
+urxvt*color12:			#B0B0FF
+urxvt*color13:			#EFA0BF
+urxvt*color14:			#A0FFFF
+urxvt*color15:			white
+
